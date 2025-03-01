@@ -16,6 +16,7 @@ interface ChatBoxProps {
 
 const ChatBox: React.FC<ChatBoxProps> = () => {
   const [value, setValue] = useState("");
+  const [chatHistory, setChatHistory] = useState<ChatHistory[]>([]);
 
   return <div> </div>;
 };
